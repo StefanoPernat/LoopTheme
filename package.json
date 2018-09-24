@@ -1,0 +1,22 @@
+{
+    "name": "looptheme",
+    "displayName": "LoopTheme",
+    "description": "A yellow theme",
+    "version": "0.0.1",
+    "publisher": "stefanopernat",
+    "engines": {
+        "vscode": "^1.27.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "LoopTheme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/LoopTheme-color-theme.json"
+            }
+        ]
+    }
+}
